@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-minmax",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Compute a minimum and maximum incrementally.",
   "license": "Apache-2.0",
   "author": {
