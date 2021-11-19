@@ -20,7 +20,7 @@ limitations under the License.
 
 # incrminmax
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Compute a minimum and maximum incrementally.
 
@@ -138,10 +138,10 @@ console.log( accumulator() );
 
 ## See Also
 
--   [`@stdlib/stats/incr/max`][@stdlib/stats/incr/max]: compute a maximum value incrementally.
--   [`@stdlib/stats/incr/min`][@stdlib/stats/incr/min]: compute a minimum value incrementally.
--   [`@stdlib/stats/incr/mminmax`][@stdlib/stats/incr/mminmax]: compute a moving minimum and maximum incrementally.
--   [`@stdlib/stats/incr/range`][@stdlib/stats/incr/range]: compute a range incrementally.
+-   <span class="package-name">[`@stdlib/stats/incr/max`][@stdlib/stats/incr/max]</span><span class="delimiter">: </span><span class="description">compute a maximum value incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/min`][@stdlib/stats/incr/min]</span><span class="delimiter">: </span><span class="description">compute a minimum value incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/mminmax`][@stdlib/stats/incr/mminmax]</span><span class="delimiter">: </span><span class="description">compute a moving minimum and maximum incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/range`][@stdlib/stats/incr/range]</span><span class="delimiter">: </span><span class="description">compute a range incrementally.</span>
 
 </section>
 
@@ -192,8 +192,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-incr-minmax/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-incr-minmax?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/stats-incr-minmax.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/stats-incr-minmax/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
