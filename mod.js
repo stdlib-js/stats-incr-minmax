@@ -1,0 +1,4 @@
+// Copyright (c) 2024 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./mod.d.ts" />
+var n=Math.floor;var r=4294967295;function t(t){return"object"==typeof t&&null!==t&&"number"==typeof t.length&&(e=t.length,n(e)===e)&&t.length>=0&&t.length<=r;var e}var e=Number.POSITIVE_INFINITY;var u=Number.NEGATIVE_INFINITY;function o(n){var r,o,f,l;if(0===arguments.length)r=[0,0];else{if(!t(n))throw new TypeError(function(){var n,r=arguments,t="https://stdlib.io/e/"+r[0]+"?";for(n=1;n<r.length;n++)t+="&arg[]="+encodeURIComponent(r[n]);return t}("1I99a",n));r=n}return o=e,f=u,l=!1,function(n){if(0===arguments.length)return!1===l?null:(r[0]=o,r[1]=f,r);l=!0,function(n){return n!=n}(n)?(o=n,f=n):((n<o||n===o&&function(n){return 0===n&&1/n===u}(n))&&(o=n),(n>f||n===f&&function(n){return 0===n&&1/n===e}(n))&&(f=n));return r[0]=o,r[1]=f,r}}export{o as default};
+//# sourceMappingURL=mod.js.map
